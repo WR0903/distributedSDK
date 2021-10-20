@@ -2,14 +2,15 @@ package portal
 
 import (
 	"bytes"
-	"distributedSDK/grades"
-	"distributedSDK/registry"
 	"encoding/json"
 	"fmt"
 	"log"
 	"net/http"
 	"strconv"
 	"strings"
+
+	"github.com/WR0903/distributedSDK/grades"
+	"github.com/WR0903/distributedSDK/registry"
 )
 
 func RegisterHandlers() {

@@ -2,10 +2,11 @@ package service
 
 import (
 	"context"
-	"distributedSDK/registry"
 	"fmt"
 	"log"
 	"net/http"
+
+	"github.com/WR0903/distributedSDK/registry"
 )
 
 func Start(ctx context.Context, host, port string,
