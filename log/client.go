@@ -2,9 +2,10 @@ package log
 
 import (
 	"bytes"
-	"distributedSDK/registry"
 	"fmt"
 	"net/http"
+
+	"github.com/WR0903/distributedSDK/registry"
 
 	stlog "log"
 )
